@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script> 
+    <link rel="stylesheet" href="amin.css">
+    <title>Document</title>
+</head>
+
+
+<script>
+    $(document).ready(function() {
+       $('#toggle').click(function(){
+           $('nav').slideToggle();
+       });
+    })
+</script>
+
+<body>
+    <header>
+        <div id="wrapper">
+            <div class="header">
+                <div id="toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <nav>
+                    <ul id="main-menu">
+                        <li><a href="">Trang Chủ</a></li>
+                        <li><a href="">Danh Mục</a></li>
+                        <li><a href="">Loại Sản Phẩm</a></li>
+                        <li><a href="">Sản Phẩm</a></li>
+                        <li><a href="">Khách Hàng</a></li>
+                        <li><a href="">Hình Ảnh</a></li>
+                        <li><a href="">Đơn Hàng</a></li>
+                        <li><a href="">Giới Thiệu</a></li>
+                        <li><a href="">Xem Dữ Liệu</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="longin-amin">
+        <div class="home">
+            <div class="home-center">
+                <div class="home-items">
+                    <a href=""><i class="fa-regular fa-calendar-plus"></i><br>
+                        Danh mục</a>
+               </div>
+               <div class="home-items">
+                   <a href=""><i class="fa-regular fa-calendar-plus"></i><br>
+                       Loại danh mục</a>
+               </div>
+               <div class="home-items">
+                   <a href=""><i class="fa-regular fa-calendar-plus"></i><br>
+                       Sản phẩm</a>
+               </div>
+               <div class="home-items">
+                   <a href="">  <i class="fas fa-database"></i><br>
+                    Xem dữ liệu</a>
+               </div>
+               <div class="home-items">
+                   <a href=""><i class="fa-regular fa-eye"></i><br>
+                       Khách hàng</a>
+               </div>
+               <div class="home-items">
+                <a href=""><i class="fas fa-bag-shopping"></i><br>
+                 Đơn hàng</a>
+            </div>
+               <div class="home-items"><i class="fa-regular fa-eye"></i><br>
+                <a href="">Giới Thiệu</a>
+           </div>
+               <div class="home-items">
+                   <a href=""><i class="fas fa-images"></i><br>
+                    Hình ảnh</a>
+               </div>
+           
+              
+               <div class="home-items">
+                    <a href=""><i class="fas fa-award"></i><br>
+                        Cài đặc</a>
+               </div>
+            </div>
+            
+        </div>
+        <div class="information">
+            <h1>Thông Tin</h1>
+            <div class="information-items">
+                <div class="information-items-other">
+                    <div class="information-items-other-right">
+                        <label for="name">Full Name: </label>
+                        <label for="name">Birth Day: </label>
+                        <label for="name">Address: </label>
+                        <label for="phone">Phone: </label>
+                        <label for="postion">Postinon: </label>
+                    </div>
+                    <div class="information-items-other-left">
+                        <p>Nguyễn Trọng Quí</p>                               
+                        <p>27/12/200</p>               
+                        <p>Giồng Trôm, Bên tre</p>
+                        <p>0397516228</p>
+                        <p>Chủ cửa hàng</p>
+                    </div>
+                </div>
+            
+            </div>
+            
+        </div>
+    </section>
+    <!-- footer -->
+    <hr>
+    <section class="app-contenr">
+        <p> Project management: Nguyễn Trọng Quí</p>
+        <div class="app-google">
+            <img src="image/app-store.png">
+            <img src="image/gg-play.png">
+        </div>
+        <p> Nhập hổ trợ từ nhà phát triển</p>
+        <input type="text" placeholder="Nhập email của bạn....">
+    </section>
+   
+    <div class="footer-top">
+        <li> <a href=""><img src="image/thongbao.png"></a></li>
+        <li> <a href="">Liên hệ</a></li>
+        <li> <a href="">Tuyển dụng</a></li>
+        <li> <a href="">Giới thiệu</a></li>
+        <li>
+            <a href=""><img src="image/fb.png"></a>
+            <a href=""><img src="image/yt.jpg"></a>
+            <a href=""><img src="image/tw.png"></a>
+        </li>
+    </div>
+    <div class="footer-center">
+        <p>
+           Công ty phát triển phần mềm NTQ: 0105777651 <br>
+            Địa chỉ đăng ký: Đường 30/4, Thị Xã Cây Lại, Tỉnh Tiền Giang<br>
+            Hotline : <b>0397516328</b> .
+        </p>
+    </div>
+    <div class="footer-bottom">
+        ©TrongQui All rights reserved
+    </div>
+</body>
+</html>

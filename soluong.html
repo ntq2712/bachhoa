@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=", initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" onclick="tru()"><i class="fa-solid fa-angles-left"></i></button>
+    <input type="text" value="1" id="textbox">
+    <button type="button" onclick="cong()"><i class="fa-solid fa-angles-right"></i></button>
+</body>
+<script>
+    function cong(){
+        var t = document.getElementById("textbox").value;
+            document.getElementById("textbox").value = parseInt(t)+1;
+    }
+    function tru(){
+        var t = document.getElementById("textbox").value;
+        if (parseInt(t)>1){
+            document.getElementById("textbox").value = parseInt(t)-1;
+        }
+           
+    }
+</script>
+</html>
